@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Corner</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!---------------------------Nav bar------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">VEGEFOODS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span><i class="fa-solid fa-bars" style="color: green"></i></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                SHOP
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Shop 1</a></li>
+                <li><a class="dropdown-item" href="#">Shop 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i> [0]
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-------------------------section-2--------------->
+    <div class="container-fluid container-2">
+      <div class="row">
+        <div class="col-12 container-text">
+          <h1>We serve Fresh Vegestables & Fruits</h1>
+          <p>WE DELIVER ORGANIC VEGETABLES & FRUITS</p>
+          <button>View Details</button>
+        </div>
+      </div>
+    </div>
+    <!-----------------------section-3----------------->
+    <div class="container py-5">
+      <div
+        class="row text-center justify-content-center row-cols-1 row-cols sm-2 row-cols-lg-4"
+      >
+        <div class="col">
+          <div class="d-flex flex-column align-items-center">
+            <div
+              class="rounded-circle bg-danger bg-opacity-25 d-flex justify-content-center align-items-center"
+              style="width: 100px; height: 100px"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
+                width="40"
+                alt="Free Shipping"
+              />
+            </div>
+            <h6 class="mt-3 fw-bold">FREE SHIPPING</h6>
+            <small class="text-muted">ON ORDER OVER $100</small>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex flex-column align-items-center">
+            <div
+              class="rounded-circle bg-warning bg-opacity-50 d-flex justify-content-center align-items-center"
+              style="width: 100px; height: 100px"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/3523/3523063.png"
+                width="40"
+                alt="Always Fresh"
+              />
+            </div>
+            <h6 class="mt-3 fw-bold">ALWAYS FRESH</h6>
+            <small class="text-muted">PRODUCT WELL PACKAGE</small>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex flex-column align-items-center">
+            <div
+              class="rounded-circle bg-info bg-opacity-50 d-flex justify-content-center align-items-center"
+              style="width: 100px; height: 100px"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+                width="40"
+                alt="Superior Quality"
+              />
+            </div>
+            <h6 class="mt-3 fw-bold">SUPERIOR QUALITY</h6>
+            <small class="text-muted">QUALITY PRODUCTS</small>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="d-flex flex-column align-items-center">
+            <div
+              class="rounded-circle bg-warning bg-opacity-25 d-flex justify-content-center align-items-center"
+              style="width: 100px; height: 100px"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/597/597177.png"
+                width="40"
+                alt="Support"
+              />
+            </div>
+            <h6 class="mt-3 fw-bold">SUPPORT</h6>
+            <small class="text-muted">24/7 SUPPORT</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------sectio-4------------------- -->
+    <div class="container my-5">
+      <div class="row g-4">
+        <!-- Left Column -->
+        <div class="col-md-4">
+          <div class="img-container mb-4">
+            <img
+              src="./images/vegetables.webp"
+              class="img-fluid"
+              alt="Fruits"
+            />
+            <!-- <div class="label-tag">Fruits</div> -->
+          </div>
+          <div class="img-container">
+            <img
+              src="images/strawberys.webp"
+              class="img-fluid"
+              alt="Vegetables"
+            />
+            <!-- <div class="label-tag">Vegetables</div> -->
+          </div>
+        </div>
+
+        <!-- Center Column -->
+        <div class="col-md-4 center-text">
+          <h4 class="text-success">Vegetables</h4>
+          <p>Protect the health of every home</p>
+          <a href="#" class="shop-btn">Shop now</a>
+          <div class="img-container mt-3">
+            <img
+              src="./images/vegs.webp"
+              class="img-fluid"
+              alt="Vegetable Basket"
+            />
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-4">
+          <div class="img-container mb-4">
+            <img src="./images/vegetables.webp" class="img-fluid" alt="" />
+            <!-- <div class="label-tag">Vegetables</div> -->
+          </div>
+          <div class="img-container">
+            <img src="./images/tamato.webp" class="img-fluid" alt="Dried" />
+            <!-- <div class="label-tag">Vegs</div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------------------------------section-5------------------------------->
+    <div class="section-5 text-center mt-5">
+      <h3>Featured Products</h3>
+      <h4>Our Products</h4>
+      <p>
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia
+      </p>
+    </div>
+    <!------------------------section-6------------------------>
+    <div class="container-6 py-5">
+      <div class="row text-center">
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="./images/simlamirch.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title text-center">BELL PEPPER</h5>
+              <p class="card-text text-center fs-5">$80.00</p>
+            </div>
+          </div>
+          <!--2nd card-->
+          <div class="card">
+            <img src="./images/tamato.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">Tomatoe</h5>
+              <p class="card-text text-center fs-5">$80.00</p>
+            </div>
+          </div>
+        </div>
+        <!---------------col-2-------------------------->
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="./images/strawberys.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">STRAWBERRY</h5>
+              <p class="card-text text-center fs-5">$120.00</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/brokli.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">BROCOLLI</h5>
+              <p class="card-text text-center fs-5">$120.00</p>
+            </div>
+          </div>
+        </div>
+        <!--------------------------col-3--------------->
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="./images/mattr.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">GREEN BEANS</h5>
+              <p class="card-text text-center fs-5">$120.00</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/gajar.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">CARROTS</h5>
+              <p class="card-text text-center fs-5">$120.00</p>
+            </div>
+          </div>
+        </div>
+        <!------------------------COL-4------------------------->
+        <div class="col-xl-3 col-md-6 col-12">
+          <div class="card mb-4">
+            <img src="./images/gobi.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">PURPLE CABBAGE</h5>
+              <p class="card-text text-center fs-5">$120.00</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/fruiet juice.webp" class="img-fluid" alt="" />
+            <div class="card-body">
+              <h5 class="card-title fs-5 text-center">FRUIT JUICE</h5>
+              <p class="card-text text-center fs-5">$120.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------section-7---------------->
+    <div class="container-fluid section-7">
+      <div class="row align-items-center justify-content-end py-5">
+        <div class="col-md-6">
+          <div class="deal-text">
+            <p class="text-success fw-bold">Best Price For You</p>
+            <h2 class="fw-bold">Deal of the day</h2>
+            <p class="text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia
+            </p>
+          </div>
+          <h4 class="text-success">Spinach</h4>
+          <p>
+            <span>$10</span>
+            <span class="text-success fw-bold">now $5 only</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!----------------------section-8-------------------------->
+    <div class="section-8 text-center mt-5">
+      <h3>Testimony</h3>
+      <h4>Our satisfied customer says</h4>
+      <p>
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia, there live the blind texts. Separated they live in
+      </p>
+    </div>
+    <!---------------------section-9------------------------>
+    <div class="container py-5">
+      <div class="row text-center">
+        <!-- Testimonial 1 -->
+        <div class="col-md-4 mb-4">
+          <img src="/images/person_1.jpg.webp" alt="User" class="profile-img" />
+          <div class="quote-icon mb-2">“</div>
+          <div class="testimonial-card mx-auto">
+            <p class="mb-3">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <h5 class="mt-4 mb-1">Garreth Smith</h5>
+          <p class="text-uppercase small text-muted">System Analyst</p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-4 mb-4">
+          <img src="/images/person_1.jpg.webp" alt="User" class="profile-img" />
+          <div class="quote-icon mb-2">“</div>
+          <div class="testimonial-card mx-auto">
+            <p class="mb-3">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <h5 class="mt-4 mb-1">Garreth Smith</h5>
+          <p class="text-uppercase small text-muted">Marketing Manager</p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-4 mb-4">
+          <img src="/images/person_1.jpg.webp" alt="User" class="profile-img" />
+          <div class="quote-icon mb-2">“</div>
+          <div class="testimonial-card mx-auto">
+            <p class="mb-3">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+          </div>
+          <h5 class="mt-4 mb-1">Garreth Smith</h5>
+          <p class="text-uppercase small text-muted">Interface Designer</p>
+        </div>
+      </div>
+    </div>
+    <!-- ---------- section 10 -->
+
+    <div class="container py-5">
+      <div
+        class="row justify-content-center align-items-center text-center g-4"
+      >
+        <div class="col-6 col-md-2">
+          <img src="./images/partner.webp" class="img-fluid" alt="" />
+        </div>
+
+        <div class="col-6 col-md-2">
+          <img
+            src="./images/partner-2.png.webp"
+            alt="Android"
+            class="img-fluid logo-img"
+          />
+        </div>
+
+        <div class="col-6 col-md-2">
+          <img
+            src="./images/partner-3.png.webp"
+            alt="Java"
+            class="img-fluid logo-img"
+          />
+        </div>
+
+        <div class="col-6 col-md-2">
+          <img
+            src="./images/partner-4.png.webp"
+            alt="Google"
+            class="img-fluid logo-img"
+          />
+        </div>
+
+        <div class="col-6 col-md-2">
+          <img
+            src="./images/partner-5.png.webp"
+            alt="Adobe"
+            class="img-fluid logo-img"
+          />
+        </div>
+      </div>
+    </div>
+    <!--------------------------section-11------------------->
+    <div class="container-fluid py-5 container-srch">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-md-6 mb-3 mb-md-0 text-center">
+          <h5 class="mb-1">Subscribe to our Newsletter</h5>
+          <p class="text-muted mb-0">
+            Get e-mail updates about our latest shops and special offers
+          </p>
+        </div>
+        <div class="col-md-6 align-items-center">
+          <form class="d-flex">
+            <input
+              type="email"
+              class="form-control rounded-3"
+              placeholder="Enter email address"
+            />
+            <button type="submit" class="btn subscribe-btn rounded-4">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- -------- FOOTER PAGE-------- -->
+
+    <!-- Footer Start -->
+    <footer class="pt-5 pb-3">
+      <div class="container">
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-md-3 mb-4">
+            <h5>Vegefoods</h5>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia.
+            </p>
+            <div class="d-flex social-icons mt-3">
+              <div class="circle"><i class="fab fa-twitter"></i></div>
+              <div class="circle"><i class="fab fa-facebook-f"></i></div>
+              <div class="circle"><i class="fab fa-instagram"></i></div>
+            </div>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="col-md-2 mb-4">
+            <h6>Menu</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-dark">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-dark">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-dark">Journal</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-dark"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="col-md-4 mb-4">
+            <h6>Help</h6>
+            <div class="d-flex flex-wrap">
+              <ul class="list-unstyled me-4">
+                <li>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Shipping Information</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Returns & Exchange</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Terms & Conditions</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Privacy Policy</a
+                  >
+                </li>
+              </ul>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none text-dark">FAQs</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none text-dark">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="col-md-3 mb-4">
+            <h6>Have a Questions?</h6>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <i class="fas fa-map-marker-alt me-2"></i>203 Fake St. Mountain
+                View, San Francisco, California, USA
+              </li>
+              <li class="mb-2">
+                <i class="fas fa-phone me-2"></i>+2 392 3929 210
+              </li>
+              <li><i class="fas fa-envelope me-2"></i>info@yourdomain.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center pt-4">
+          <p class="mb-0">
+            Copyright ©2025 All rights reserved | This template is made with
+            <span class="text-danger"><i class="fa-solid fa-heart"></i></span>
+            by
+            <a
+              href="https://colorlib.com"
+              class="text-success text-decoration-none"
+              >Colorlib</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

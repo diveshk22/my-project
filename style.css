@@ -1,0 +1,257 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*-------------------------Nav bar-------*/
+.navbar-brand {
+  font-weight: bold;
+  color: #7cb342 !important; /* Green color */
+}
+.navbar-nav .nav-link {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.cart-icon {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/*-------------------------------section2-------------*/
+.container-2 {
+  height: 100vh;
+  background-image: url(images/bg_2.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-text {
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+  text-align: center;
+  font-family: "Poppins", Arial, sans-serif;
+  /* border: 2px solid red; */
+}
+.container-text h1 {
+  /* text-align: center; */
+  color: white;
+  line-height: 1.7;
+  font-size: 50px;
+  font-family: "Amatic SC", cursive;
+  font-weight: 400;
+}
+.container-text p {
+  /* text-align: center; */
+  color: white;
+  font-size: 18px;
+
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 1.7;
+  letter-spacing: 4px;
+  /* width: 80%; */
+}
+
+.container-text button {
+  /* margin-left: 30%; */
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/*------------------section-4--------------*/
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.shop-btn {
+  background-color: #6ebf4b;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+/* .shop-btn:hover {
+      background-color: #5aa53e;
+      color: white;
+    } */
+/* .section-4 h2 {
+  color: #82ae46;
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-4 p {
+  color: gray;
+}
+.section-4 button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.bg-content {
+  border: 2px solid black;
+  height: 95vh;
+  background-position: center;
+  background-image: url("./images/vegs.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: 90%;
+  margin: auto; */
+/* }
+.section-4 img {
+  width: 400px;
+  height: 300px;
+}
+.text-content {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid black; */
+/* } */
+/*---------------------secion-5-----------*/
+.section-5 h3 {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  color: #82ae46;
+}
+
+.section-5 h4 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.section-5 p {
+  color: gray;
+}
+/*---------------section-6---------------*/
+.container-6 {
+  width: 90%;
+  margin: auto;
+}
+.card-body p {
+  color: green;
+  font-size: 15px;
+  font-weight: 400;
+}
+/*---------------------------section-7-------------*/
+.section-7 {
+  height: 70vh;
+  background-image: url(./images/patte.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deal-text {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* padding-left: 50%; */
+  border-radius: 10px;
+}
+.span {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+/* -------------------------section-8--------------*/
+.section-8 {
+  /* border: 2px solid red; */
+  width: 50%;
+  margin: auto;
+}
+.section-8 h3 {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  color: #82ae46;
+}
+
+.section-8 h4 {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 400;
+}
+
+.section-8 p {
+  color: gray;
+  font-size: 14px;
+}
+/* ----------------------section 9--------- */
+.quote-icon {
+  font-size: 24px;
+  color: #7dbd3b;
+}
+.testimonial-card {
+  border-left: 3px solid #7dbd3b;
+  padding-left: 15px;
+}
+.profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+/* ------------ 10th section------------ */
+.logo-img {
+  max-width: 100px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.logo-img:hover {
+  filter: none;
+  opacity: 1;
+}
+/*----------------------------section-11----------*/
+.container-srch {
+  height: 30vh;
+  background-color: #f7f6f2;
+}
+.subscribe-btn {
+  background-color: #8ab645;
+  color: white;
+}
+/* ----- footer page------ */
+.social-icons i {
+  font-size: 1.2rem;
+  color: black;
+}
+.social-icons .circle {
+  width: 40px;
+  height: 40px;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
